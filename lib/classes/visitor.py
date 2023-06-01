@@ -1,10 +1,10 @@
 class Visitor:
-    all = []
+
     def __init__(self, name):
         self.name = name
         self._national_parks = []
         self._trips = []
-        Visitor.all.append(self)
+      
 
     @property
     def name(self):
